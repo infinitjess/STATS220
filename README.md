@@ -16,11 +16,11 @@ A meme that captures how I currently feel about my university studies is:
 ## About Me: ##
 
 ### My Favourite Books:
-My top five **favourite** books, ranked from #1 (my *top favourite* book) to 5 
+My top five **favourite** books, ranked from #1 (my *top favourite* book) to 5:
 
-1. *All Quiet on the Western Front* (by Erich Maria Remarque)
-2. *The Word for World is Forest* (by Ursula K. Le Guin)
-3. *Piranesi* (by Susanne Clark)
-4. *Bullet Train* (by Kotaro Isaka) 
-5. *Misery* (by Stephen King) 
+**1.** *All Quiet on the Western Front* (by Erich Maria Remarque)
+**2.** *The Word for World is Forest* (by Ursula K. Le Guin)
+**3.** *Piranesi* (by Susanne Clark)
+**4.** *Bullet Train* (by Kotaro Isaka) 
+**5.** *Misery* (by Stephen King) 
 
