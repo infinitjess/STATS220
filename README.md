@@ -11,3 +11,16 @@ A little about me:
 A meme that captures how I currently feel about my university studies is:
 
 ![](https://media1.tenor.com/m/y2JXkY1pXkwAAAAC/cat-computer.gif)
+
+
+# About Me: 
+
+## My Favourite Books:
+### My top five favourite books, ranked from #1 (my top favourite book) to 5 
+<ol>
+  <li> All Quiet on the Western Front </li>
+  <li> The Word for World is Forest (By Ursula K. Le Guin) </li>
+  <li> Piranesi (by Susanne Clark) </li>
+  <li> Bullet Train (by Kotaro Isaka) </li>
+  <li> Misery (by Stephen King) </li>
+</ol>
