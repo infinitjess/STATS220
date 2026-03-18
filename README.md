@@ -34,5 +34,9 @@ Here is a random assortment of things I am currently enjoying:
 - Kurt Vonnegut books
 - The movie: *Marty Supreme*(2025)
 
+Here's a Snoopy gif that most accurately describes me: 
+![](![](https://media1.tenor.com/m/y2JXkY1pXkwAAAAC/cat-computer.gif)
+)
+
 
 
