@@ -35,7 +35,8 @@ Here is a random assortment of things I am currently enjoying:
 - The movie: *Marty Supreme*(2025)
 
 Here's a Snoopy gif that most accurately describes me: 
-![](https://media1.tenor.com/m/y2JXkY1pXkwAAAAC/cat-computer.gif)
+
+![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWc2Z3Z6cG9iZ2RhZGlkZ2htbG5jem9xNWptczF6c2FzOTVicTAxciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NjsWxuOQpLwa7xY4Lp/giphy.gif)
 
 
 
