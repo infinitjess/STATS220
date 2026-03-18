@@ -30,9 +30,9 @@ If you're interested in other books I've read, heres a link to my [Goodreads](ht
 Here is a random assortment of things I am currently enjoying:
 - The 1997 album *OK Computer* by Radiohead (**specifically** *Climbing Up the Walls*)
 - The TV show *Pluribus*
-- The game Borderlands 2 on PS4 (Too broke for a PS5)
+- The game Borderlands 2 on PS4 ( too broke for a PS5)
 - Kurt Vonnegut books
-- The movie: *Marty Supreme*(2025)
+- The movie: *Marty Supreme* (2025)
 
 Here's a Snoopy gif that most accurately describes me: 
 
