@@ -22,5 +22,17 @@ My top five **favourite** books, ranked from #1 (my *top favourite* book) to 5:
 2. *The Word for World is Forest* (by Ursula K. Le Guin)
 3. *Piranesi* (by Susanne Clark)
 4. *Bullet Train* (by Kotaro Isaka) 
-5. *Misery* (by Stephen King) 
+5. *Misery* (by Stephen King)
+
+If you're interested in other books I've read, heres a link to my [Goodreads](https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1)
+
+### Some Random Favourites:
+Here is a random assortment of things I am currently enjoying:
+- The 1997 album *OK Computer* by Radiohead (**specifically** *Climbing Up the Walls*)
+- The TV show *Pluribus*
+- The game Borderlands 2 on PS4 (Too broke for a PS5)
+- Kurt Vonnegut books
+- The movie: *Marty Supreme*(2025)
+
+
 
