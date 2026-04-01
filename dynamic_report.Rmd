@@ -64,3 +64,40 @@ paste0(
 )
 ```
 
+
+```{r}
+#Bar chart of difference in alone or in group
+latest_data %>%
+  ggplot() +
+  geom_bar(aes(x = AloneGroup)) +
+  labs(
+    title = "Number of People Alone vs in a Group",
+    x = "Type",
+    y = "Count"
+  ) +
+  theme(plot.background = element_rect(fill = "#d0e4f7", color = NA),
+    panel.background = element_rect(fill = "#d0e4f7", color = NA)
+  )
+```
+
+
+
+```{r}
+avg_group <- mean(latest_data$GroupSize, na.rm = TRUE)
+max_group <- max(latest_data$GroupSize, na.rm = TRUE)
+
+paste0("The average group size is ", round(avg_group, 1), 
+       " and the largest group is ", max_group, " people.")
+```
+
+
+```{r}
+alone_group_counts <- latest_data %>%
+  count(AloneGroup)
+
+paste0("Out of all observations, ", 
+       alone_group_counts$n[alone_group_counts$AloneGroup == "Alone"],
+       " people were alone and ", 
+       alone_group_counts$n[alone_group_counts$AloneGroup == "Group"],
+       " people were in a group.")
+```
