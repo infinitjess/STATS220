@@ -9,7 +9,10 @@ knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE, error=FALSE)
 ```
 
 ```{css}
-body { font-family: Arial, sans-serif; }
+body { 
+      font-family: Arial, sans-serif;
+      background-color: #d0e4f7
+      }
 h2 { color: #2E86AB; }
 ```
 
@@ -42,26 +45,22 @@ latest_data %>%
     title = "Distribution of Library Activities",
     x = "Activity",
     y = "Count"
+  ) +
+  theme(plot.background = element_rect(fill = "#d0e4f7", color = NA),
+    panel.background = element_rect(fill = "#d0e4f7", color = NA)
   )
 ```
 
 ```{r}
-#Bar chart of difference in alone or in group
-latest_data %>%
-  ggplot() +
-  geom_bar(aes(x = AloneGroup)) +
-  labs(
-    title = "Alone vs Group",
-    x = "Type",
-    y = "Count"
-  )
-```
+activity_counts <- latest_data %>%
+  count(Activity)
 
-```{r}
-avg_group <- mean(latest_data$GroupSize, na.rm = TRUE)
-max_group <- max(latest_data$GroupSize, na.rm = TRUE)
-
-paste0("The average group size is ", round(avg_group, 1), 
-       " and the largest group is ", max_group, " people.")
+paste0(
+  "The most common activity is ", 
+  activity_counts$Activity[which.max(activity_counts$n)],
+  " with ", max(activity_counts$n), " observations, and the least common activity is ",
+  activity_counts$Activity[which.min(activity_counts$n)], 
+  " with ", min(activity_counts$n), " observations."
+)
 ```
 
