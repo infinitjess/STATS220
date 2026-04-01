@@ -1,0 +1,72 @@
+---
+title: My dynamic report
+output: html_fragment
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE, error=FALSE)
+
+```
+
+```{css}
+<style>
+body { font-family: Arial, sans-serif; }
+h2 { color: #2E86AB; }
+</style>
+```
+
+## Library Activities: Obervations of Activity Types and Group Sizes
+
+The purpose of this dynamic report is to analyse observations collected in the library, such as what activities people are doing, whether they are alone or in a group, and the size of the groups. 
+
+```{r}
+#Load packages
+library(tidyverse)
+
+#Load Data
+logged_data <- read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vT6WW3S0g1VRTCFdQ40KSfTgRUKG78DaOyIpo10sTyd4cyTtRqULdiaymaFq4Azv7dUV4prBdzq-Ebt/pub?output=csv")
+
+#View data
+view(logged_data)
+
+#Renaming variables
+latest_data <- logged_data %>%
+  rename(
+    Activity = `What activity is the person doing?`,
+    AloneGroup = `Is the person alone or in a group?`,
+    GroupSize = `How many people are in the group?`
+  )
+```
+
+```{r}
+#Bar chart of activities 
+latest_data %>%
+  ggplot() +
+  geom_bar(aes(x = Activity)) +
+  labs(
+    title = "Distribution of Library Activities",
+    x = "Activity",
+    y = "Count"
+  )
+```
+
+```{r}
+#Bar chart of difference in alone or in group
+latest_data %>%
+  ggplot() +
+  geom_bar(aes(x = AloneGroup)) +
+  labs(
+    title = "Alone vs Group",
+    x = "Type",
+    y = "Count"
+  )
+```
+
+```{r}
+avg_group <- mean(latest_data$GroupSize)
+max_group <- max(latest_data$GroupSize)
+
+paste0("The average group size is ", round(avg_group, 1), 
+       " and the largest group is ", max_group, " people.")
+```
+
