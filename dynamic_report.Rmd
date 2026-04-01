@@ -9,10 +9,8 @@ knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE, error=FALSE)
 ```
 
 ```{css}
-<style>
 body { font-family: Arial, sans-serif; }
 h2 { color: #2E86AB; }
-</style>
 ```
 
 ## Library Activities: Obervations of Activity Types and Group Sizes
