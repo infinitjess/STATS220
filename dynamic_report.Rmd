@@ -13,7 +13,7 @@ body { font-family: Arial, sans-serif; }
 h2 { color: #2E86AB; }
 ```
 
-## Library Activities: Obervations of Activity Types and Group Sizes
+## Library Activities: Observations of Activity Types and Group Sizes
 
 The purpose of this dynamic report is to analyse observations collected in the library, such as what activities people are doing, whether they are alone or in a group, and the size of the groups. 
 
@@ -23,9 +23,6 @@ library(tidyverse)
 
 #Load Data
 logged_data <- read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vT6WW3S0g1VRTCFdQ40KSfTgRUKG78DaOyIpo10sTyd4cyTtRqULdiaymaFq4Azv7dUV4prBdzq-Ebt/pub?output=csv")
-
-#View data
-view(logged_data)
 
 #Renaming variables
 latest_data <- logged_data %>%
@@ -61,8 +58,8 @@ latest_data %>%
 ```
 
 ```{r}
-avg_group <- mean(latest_data$GroupSize)
-max_group <- max(latest_data$GroupSize)
+avg_group <- mean(latest_data$GroupSize, na.rm = TRUE)
+max_group <- max(latest_data$GroupSize, na.rm = TRUE)
 
 paste0("The average group size is ", round(avg_group, 1), 
        " and the largest group is ", max_group, " people.")
